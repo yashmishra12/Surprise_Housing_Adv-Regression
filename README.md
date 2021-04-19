@@ -17,3 +17,46 @@ The company wants to know:
 # Business Goal
 
 You are required to model the price of houses with the available independent variables. This model will then be used by the management to understand how exactly the prices vary with the variables. They can accordingly manipulate the strategy of the firm and concentrate on areas that will yield high returns. Further, the model will be a good way for management to understand the pricing dynamics of a new market.
+
+
+
+# Conclusion
+## Summary
+
+**Ridge Top 5 predictors**: 
+    - 1stFlrSF\
+    - OverallQual\
+    - 2ndFlrSF\
+    - TotalBsmtSF\
+    - Neighborhood_StoneBr\
+\
+\
+**Ridge r2 score**:\
+    - train: 0.8839\
+    - test : 0.8899\
+\
+\
+**Ridge Mean Square Error**:
+     0.001257
+    
+
+-----------------------------------
+-----------------------------------
+
+    
+    
+**Lasso Top 5 predictors**: 
+    - 1stFlrSF\
+    - OverallQual\
+    - 2ndFlrSF\
+    - Neighborhood_StoneBr\
+    - TotalBsmtSF\
+\
+\
+**Ridge r2 score**:\
+    - **train**: 0.8814\
+    - **test** : 0.8874\
+\
+\
+**Ridge Mean Square Error**:
+     0.0.0012869
